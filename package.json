@@ -1,0 +1,36 @@
+{
+  "name": "eslint-plugin-template-string",
+  "description": "custom ESLint rule, use template string instead of `+` string.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jxck"
+  },
+  "bugs": {
+    "url": "https://github.com/Jxck/eslint-plugin-template-string/issues"
+  },
+  "devDependencies": {
+    "eslint": "^1.0.0",
+    "mocha": "^2.2.5"
+  },
+  "homepage": "https://github.com/Jxck/eslint-plugin-template-string",
+  "keywords": [
+    "template",
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "lint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=0.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jxck/eslint-plugin-template-string"
+  },
+  "scripts": {
+    "lint": "eslint -c .eslintrc index.js lib/**/*.js tests/**/*.js",
+    "test": "mocha tests/rules/"
+  }
+}
